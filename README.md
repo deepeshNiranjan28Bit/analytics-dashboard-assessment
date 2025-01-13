@@ -12,8 +12,8 @@ The goal of this project was to analyze the EV population dataset and create a d
 2. **Data Analysis Notebook**: A Jupyter Notebook for exploratory data analysis (EDA), visualization, and error handling.
 3. **Exported PDF Report**: A compiled showcase of key graphs and insights generated from the notebook.
 
-The app is live and accessible at: [🔗 Deployed Dashboard on Netlify](#)  
-*(Replace `#` with your Netlify link)*
+The app is live and accessible at: [🔗 Deployed Dashboard on Netlify](https://deepeshniranjanevdashboard.netlify.app/)  
+
 
 ---
 
