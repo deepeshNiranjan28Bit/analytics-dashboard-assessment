@@ -43,31 +43,32 @@ const Dashboard = () => {
     <div className="dashboard">
       <h1>Dashboard</h1>
       <div className="insights">
-        <div className="insight-card">
-          <h2>Total Orders till Date</h2>
-          <p>{insights.totalOrders}</p>
-        </div>
-        <div className="insight-card">
-          <h2>Battery Electric Vehicle (BEV) Orders</h2>
-          <p>{insights.evOrders}</p>
-        </div>
-        <div className="insight-card">
-          <h2>Plug-in Hybrid Electric Vehicle (PHEV) Orders</h2>
-          <p>{insights.nonEvOrders}</p>
-        </div>
-        <div className="insight-card">
-          <h2>Total Orders by Year</h2>
-          <p>{Object.keys(insights.ordersByYear).length}</p>
-        </div>
-        <div className="insight-card">
-          <h2>Unique Makes</h2>
-          <p>{Object.keys(insights.makeDistribution).length}</p>
-        </div>
-        <div className="insight-card">
-          <h2>Top Model Name</h2>
-          <p>{insights.topModel}</p>
-        </div>
-      </div>
+  <div className="insight-card totalOrders">
+    <h2>Total Orders till Date</h2>
+    <p>{insights.totalOrders}  <i className="fas fa-shopping-cart"></i></p>
+  </div>
+  <div className="insight-card evOrders">
+    <h2>Battery Electric Vehicle (BEV) Orders</h2>
+    <p>{insights.evOrders}  <i className="fas fa-battery-full"></i></p>
+  </div>
+  <div className="insight-card nonEvOrders">
+    <h2>Plug-in Hybrid Electric Vehicle (PHEV) Orders</h2>
+    <p>{insights.nonEvOrders}  <i className="fas fa-gas-pump"></i></p>
+  </div>
+  <div className="insight-card ordersByYear">
+    <h2>Total Orders by Year</h2>
+    <p>{Object.keys(insights.ordersByYear).length}  <i className="fas fa-calendar-day"></i></p>
+  </div>
+  <div className="insight-card makeDistribution">
+    <h2>Unique Makes</h2>
+    <p>{Object.keys(insights.makeDistribution).length}  <i className="fas fa-cogs"></i></p>
+  </div>
+  <div className="insight-card topModel">
+    <h2>Top Model Name</h2>
+    <p>{insights.topModel}  <i className="fas fa-car"></i></p>
+  </div>
+</div>
+
     </div>
   );
 };
