@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Content area styling */
+.content {
+  flex: 1;
+  margin-left: 275px; /* Adjust content area to leave space for the sidebar */
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #121212;
+}
