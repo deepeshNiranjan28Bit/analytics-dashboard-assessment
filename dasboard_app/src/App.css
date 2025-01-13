@@ -18,3 +18,11 @@ body {
   overflow-y: auto;
   background-color: #121212;
 }
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .content {
+    margin-left: 10px;  /* Adjust width for smaller screens */
+    margin-top: 10vh;
+  }
+}
